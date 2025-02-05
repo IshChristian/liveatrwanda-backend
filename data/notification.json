@@ -1,0 +1,10 @@
+{
+    "user":"userID",
+    "type":"new_message",
+    "title":"NEW MESSAGE RECEIVED",
+    "message":"you have ....",
+    "data":{
+        "property":"prop_id",
+        "message":"msg_id"
+    }
+}

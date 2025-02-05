@@ -1,0 +1,20 @@
+{
+    "title":"haza office space",
+    "type":"commercial",
+    "purpose":"rent",
+    "price":255,
+	"period":"monthly",
+    "location": {
+        "address":"AVE 1 KK",
+        "city":"Kigali",
+        "state":"Muhima",
+        "zipCode":"10001"
+    },
+    "details":{
+        "area":1500,
+        "parking":2,
+        "yearBuilt": 2025
+    },
+    "features": ["elevator","security","wifi"],
+    "owner":"6765784f21df63f4a8938c0c"
+}

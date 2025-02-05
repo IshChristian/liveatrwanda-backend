@@ -1,0 +1,9 @@
+{
+    "name":"Real Estate Corp",
+    "type":"company",
+    "contant":{
+        "email":"contact@gmail.com",
+        "phone":"123-123-1212",
+        "address":"Kigali"
+    }
+}
