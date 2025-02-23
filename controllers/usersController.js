@@ -23,6 +23,18 @@ exports.findUser = async (req, res) => {
     res.status(500).json({ error: "Server Error" });
   }
 };
+exports.findUserById = async (req, res) => {
+  const {id} = req.params;
+  try {
+        const finds = await userModel.findById(id)
+    if (!finds) {
+      return res.status(404).json({ error: "User not found" });
+    }
+    res.status(200).json(finds);
+  } catch (error) {
+    res.status(500).json({ error: "Server Error" });
+  }
+};
 
 // Create a new user
 exports.createUser = async (req, res) => {

@@ -61,10 +61,6 @@ exports.getAllBookings = async (req, res) => {
   exports.getBookingsById = async (req, res) => {
     try {
         const { id } = req.params;
-        
-        // if (!tenantID) {
-        //     return res.status(400).json({ message: 'Tenant ID is required' });
-        // }
 
         const bookings = await Booking.findById(id)
         
